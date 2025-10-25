@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <nav>
         <ul>
-            <li><Link to="/">Inicio</Link></li>
+            <li><Link to="/"><a><img src="/logo-01.svg" alt="Logo de la página" class="logo"/></a></Link></li>
             <li><Link to="/nosotros">Nosotros</Link></li>
             <li><Link to="/productos">Productos</Link></li>
             <li >
